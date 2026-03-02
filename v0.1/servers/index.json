@@ -3,7 +3,7 @@
     {
       "server": {
         "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-        "name": "io.github.github/github-mcp-server",
+        "name": "github",
         "description": "GitHub MCP Server - access GitHub features from Copilot",
         "version": "0.1.0",
         "packages": [
