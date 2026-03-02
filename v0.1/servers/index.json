@@ -3,15 +3,13 @@
     {
       "server": {
         "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-        "name": "github",
+        "name": "io.github.github/github-mcp-server",
         "description": "GitHub MCP Server - access GitHub features from Copilot",
         "version": "0.1.0",
-        "packages": [
+        "remotes": [
           {
-            "registryType": "npm",
-            "identifier": "@modelcontextprotocol/server-github",
-            "version": "0.6.2",
-            "runtimeHint": "npx"
+            "type": "streamable-http",
+            "url": "https://api.githubcopilot.com/mcp/"
           }
         ]
       }
